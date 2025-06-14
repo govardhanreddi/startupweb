@@ -376,7 +376,7 @@ export default function Services() {
                 className="mb-8"
               >
                 <span className="bg-[rgb(66,93,109)]/10 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium tracking-wider text-[rgb(66,93,109)]">
-                  COMPREHENSIVE TECHNOLOGY SOLUTIONS
+                  COMPREHENSIVE SOLUTIONS
                 </span>
               </motion.div>
               <motion.h1 
