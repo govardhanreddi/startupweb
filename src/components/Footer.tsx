@@ -65,7 +65,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4 font-heading">Contact Us</h4>
             <ul className="space-y-2 text-gray-300 font-body">
-              <li><a href="mailto:info@kodingkompany.com" className="hover:text-white transition-colors">Email: info@kodingkompany.com</a></li>
+              <li><a href="mailto:contact@kodingkompany.com" className="hover:text-white transition-colors">Email: contact@kodingkompany.com</a></li>
               <li><a href="tel:+917989875228" className="hover:text-white transition-colors">Phone: +91 7989875228</a></li>
               <li>Address: Unit 10, MCR Magnific, Raidurgam X Roads, Raidurgam, Hyderabad</li>
             </ul>
