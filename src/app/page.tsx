@@ -260,7 +260,7 @@ export default function Home() {
                   className="mb-8"
                 >
                   <span className="bg-gradient-to-r from-[rgb(66,93,109)]/20 to-[rgb(66,93,109)]/10 backdrop-blur-sm px-8 py-4 rounded-full text-sm font-medium tracking-wider text-[rgb(66,93,109)] shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-                    INNOVATIVE TECHNOLOGY SOLUTIONS
+                    INNOVATIVE SOLUTIONS
                   </span>
                 </motion.div>
                 
