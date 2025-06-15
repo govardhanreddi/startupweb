@@ -3,7 +3,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { FaArrowLeft, FaCheckCircle, FaCode, FaMobileAlt, FaPalette, FaCloud, FaChartLine, FaLightbulb, FaRobot, FaShieldAlt, FaTools, FaNetworkWired, FaDatabase, FaUserTie } from 'react-icons/fa';
+import WhatsAppButton from '@/components/WhatsAppButton';
+import { FaArrowLeft, FaCheckCircle, FaCode, FaMobileAlt, FaPalette, FaCloud, FaChartLine, FaLightbulb, FaRobot, FaShieldAlt, FaTools, FaNetworkWired, FaDatabase, FaUserTie, FaWhatsapp } from 'react-icons/fa';
 import { useParams } from 'next/navigation';
 import Navigation from '../../../components/Navigation';
 import AnimatedIllustration from '../../../components/AnimatedIllustration';
@@ -344,6 +345,7 @@ export default function ServicePage() {
 
   return (
     <div className="min-h-screen bg-white">
+      <WhatsAppButton />
       <Navigation />
       
       <main className="pt-24 pb-16">
@@ -470,11 +472,12 @@ export default function ServicePage() {
                     Call Us
                   </a>
                   <a 
-                    href="https://wa.me/+917989875228"
+                    href="https://wa.me/+917989875228?text=Hi%20KodingKompany%2C%20I%20am%20interested%20in%20your%20services.&source=website"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-[rgb(66,93,109)] text-white px-6 py-3 rounded-full font-semibold hover:bg-[rgb(76,103,119)] transition-all hover:scale-105 shadow-lg hover:shadow-xl"
+                    className="bg-[rgb(66,93,109)] text-white px-6 py-3 rounded-full font-semibold hover:bg-[rgb(76,103,119)] transition-all hover:scale-105 shadow-lg hover:shadow-xl flex items-center gap-2"
                   >
+                    <FaWhatsapp className="w-5 h-5" />
                     WhatsApp
                   </a>
                 </div>

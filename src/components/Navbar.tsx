@@ -18,9 +18,9 @@ const Navbar = () => {
             <Link href="/" className="text-gray-600 hover:text-blue-600">
               Home
             </Link>
-            <Link href="/services" className="text-gray-600 hover:text-blue-600">
+            <a href="https://wa.me/+917989875228?text=Hi%20KodingKompany%2C%20I%20am%20interested%20in%20your%20services.&source=website" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600">
               Services
-            </Link>
+            </a>
             <Link href="/about" className="text-gray-600 hover:text-blue-600">
               About
             </Link>

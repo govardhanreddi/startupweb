@@ -34,6 +34,7 @@ import {
   FaArrowRight,
   FaCheckCircle
 } from 'react-icons/fa';
+import WhatsAppButton from '@/components/WhatsAppButton';
 import Navigation from '../../components/Navigation';
 import AnimatedIllustration from '../../components/AnimatedIllustration';
 import Link from 'next/link';
@@ -359,6 +360,7 @@ export default function Services() {
 
   return (
     <div className="min-h-screen bg-white">
+      <WhatsAppButton />
       <Navigation />
 
       <main className="flex-grow">

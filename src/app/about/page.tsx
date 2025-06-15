@@ -4,6 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Navigation from '@/components/Navigation';
 import { FaRocket, FaLightbulb, FaHandshake, FaChartLine, FaUsers, FaGlobe } from 'react-icons/fa';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 export default function About() {
   const stats = [
@@ -38,6 +39,7 @@ export default function About() {
 
   return (
     <div className="min-h-screen bg-white">
+      <WhatsAppButton />
       <Navigation />
       
       {/* Hero Section */}
